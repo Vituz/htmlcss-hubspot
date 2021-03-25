@@ -113,6 +113,10 @@ body{
  /* /TOP NAV */
 
  /* NAV */
+header section:nth-child(3){
+    background-color: white;
+}
+
  .logo, .menu{
     float: left;
     width: 50%;
@@ -185,7 +189,17 @@ body{
  /**********
  MAIN 
  **********/
+body{
+    background-color: #AFEBE4;
+    /* background-color: blue; */
+}
 
+.offer{
+    margin-top: 60px;
+    border-top: 3px solid #486272;
+    height: 30px;
+    
+}
 
 
 /**********
