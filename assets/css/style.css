@@ -7,6 +7,7 @@
 body{
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     min-width: 1000px;
+    font-weight: 600;
 }
 
 /* Utility */
@@ -21,7 +22,7 @@ body{
     width: 80%;
 }
 
-.bg_white{
+.top_nav{
     background-color: #F4F9FD;
 }
 
@@ -58,49 +59,99 @@ body{
     color: white;
 }
 
+.nav_text{
+    font-size: 0.6rem;
+    color: #32495B;
+}
 /* /Utility */
 
 /**********
  HEADER 
  **********/
+
+ /* TOP NAV */
  .left_menu, .right_menu{
-     float: left;
-     width: 49%;
+    float: left;
+    width: 50%;
      
  }
 
- .bg_white nav div, .bg_white div > ul > li{
-     font-size: 0.6rem;
-     margin: 10px 5px;
-     display: inline-block;
-     padding-left: 5px;
+ .top_nav nav div, .top_nav div > ul > li{
+    margin: 10px 0px 10px 0;
+    display: inline-block;
  }
 
- .bg_white nav{
-  
+ .top_nav div > ul > li{
+    padding-left: 20px;
+ }
+
+ .left_menu div{
+    padding-right: 12px;
  }
 
  .left_menu div:last-child{
-     border-left: 1px solid #32495B;
-     padding-left: 15px;
+    border-left: 1px solid #32495B;
+    padding-left: 15px;
  }
 
  .right_menu{
-     text-align: right;
+    text-align: right;
  }
 
  .right_menu > ul > li{
-     list-style: none;
-     display: inline-block;
+    list-style: none;
+    display: inline-block;
  }
 
  .right_menu > ul > li > a{
-     text-decoration: none;
+    text-decoration: none;
  }
 
  li > i{
-     color: #47BBCF;
+    color: #47BBCF;
  }
+ /* /TOP NAV */
+
+ /* NAV */
+ .logo, .menu{
+    float: left;
+    width: 50%;
+ }
+
+ .menu{
+    text-align: right;
+ }
+
+ .logo{
+    margin: 12px 0;
+ }
+
+ .logo > img{
+    width: 15%;
+ }
+
+ .menu > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin: 12px 0px 10px 0;
+    padding-left: 18px;
+ }
+
+ .menu > ul > li > a{
+    text-decoration: none;
+    font-size: 0.6rem;
+    color: #32495B;
+    
+ }
+ 
+ a > .fa-chevron-down{
+     padding-left: 5px;
+ }
+
+
+
+ /* /NAV */
+
 
 
  /**********
