@@ -201,9 +201,7 @@ header section:nth-child(3){
      padding-top: 50px;
  }
 
- .card_content div:last-child{
-     margin: 20px 0;
- }
+
  /* /NAV */
 
 
@@ -299,8 +297,6 @@ body{
     margin-left: 50px;
 }
 
-
-
  .list_popolar li, .card_bg li{
     list-style: none;
     margin-right: 20px;
@@ -339,20 +335,16 @@ body{
     padding: 20px 0;
 }
 
-
+.center{
+    margin: 0 50px;
+}
 
 .card_box > div{
     width: 30.3%;
     display: inline-block;
 }
 
-.card_box > div:first-child{
-    margin-right: 50px;
-}
 
-.card_box > div:last-child{
-    margin-left: 50px;
-}
 
 .card li{
     text-align: left;
