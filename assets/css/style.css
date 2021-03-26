@@ -5,8 +5,8 @@
 }
 
 body{
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
-    min-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 1300px;
     font-weight: 600;
 }
 
@@ -60,7 +60,7 @@ body{
 }
 
 .nav_text{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: #32495B;
 }
 /* /Utility */
@@ -76,7 +76,7 @@ body{
      
  }
 
- .top_nav nav div, .top_nav div > ul > li{
+ .top_nav nav div , .top_nav div > ul > li{
     margin: 10px 0px 10px 0;
     display: inline-block;
  }
@@ -85,13 +85,18 @@ body{
     padding-left: 20px;
  }
 
- .left_menu div{
+ .left_menu div a{
     padding-right: 12px;
  }
 
  .left_menu div:last-child{
     border-left: 1px solid #32495B;
     padding-left: 15px;
+ }
+
+ .left_menu div a{
+     text-decoration: none;
+     color: #32495B;
  }
 
  .right_menu{
@@ -120,10 +125,12 @@ header section:nth-child(3){
  .logo, .menu{
     float: left;
     width: 50%;
+    
  }
 
  .menu{
     text-align: right;
+    line-height: 30px;
  }
 
  .logo{
@@ -132,6 +139,7 @@ header section:nth-child(3){
 
  .logo > img{
     width: 15%;
+    line-height: 40px;
  }
 
  .menu > ul > li{
@@ -143,7 +151,7 @@ header section:nth-child(3){
 
  .menu > ul > li > a{
     text-decoration: none;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: #32495B;
  }
  
@@ -155,32 +163,33 @@ header section:nth-child(3){
      background-image: url("../img/jumbotron.png");
      background-size: cover;
      background-repeat: no-repeat;
-     height: 490px;
+     height: 650px;
      border-bottom: 3px solid #486272;
  }
 
  .jumb_container{
-     width: 48%;
-     font-size: 1.5rem;
+     width: 45%;
+     font-size: 2rem;
      padding-top: 50px;
  }
 
  .jumb_container p{
     padding: 30px 0 30px 0;
-    line-height: 20px;
+    line-height: 28px;
+   
  }
 
  .jumbo_button{
      text-decoration: none;
      color: white;
-     font-size: 0.6rem;
+     font-size: 0.8rem;
      padding: 15px 25px;;
  }
 
  .jumb_container h4{
-     font-size: 0.5rem;
+     font-size: 0.7rem;
      font-weight: 600;
-     padding-top: 40px;
+     padding-top: 50px;
  }
  /* /NAV */
 
