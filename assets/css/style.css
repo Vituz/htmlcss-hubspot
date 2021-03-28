@@ -442,6 +442,63 @@ body{
 
 /* /LEARN */
 
+/* PARTNERS */
+
+.partners{
+    width: 70%;
+    margin: auto;
+    height: 400px;
+}
+
+section > section{
+    margin: auto;
+}
+
+.counter, .loghi_partners{
+    margin: auto;
+}
+
+.counter{
+    width: 15%;
+    float: left;
+    margin-top: 40px;
+}
+
+.counter h2{
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.counter p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.loghi_partners{
+    width: 50%;
+    float: right;
+    margin-top: 60px;
+}
+
+.box_logo{
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.box_logo img{
+    width: 80%;
+    vertical-align: middle;
+}
+
+
+
+
+/* /PARTNERS */
+
 /**********
  FOOTER 
  **********/
