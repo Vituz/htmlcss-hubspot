@@ -73,6 +73,12 @@ body{
     font-size: 1.7rem;
     padding-bottom: 30px;
 }
+
+h5{
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding-top: 50px;
+}
 /* /Utility */
 
 /**********
@@ -186,7 +192,6 @@ header section:nth-child(3){
 
  .jumb_container p{
     padding: 30px 0 30px 0;
-    /* line-height: 30px;  */
  }
 
  .jumbo_button{
@@ -195,27 +200,17 @@ header section:nth-child(3){
      padding: 18px 40px;;
  }
 
- .jumb_container h5{
-     font-size: 0.7rem;
-     font-weight: 600;
-     padding-top: 50px;
- }
-
-
  /* /NAV */
-
-
 
  /**********
  MAIN 
  **********/
 
- 
+
 body{
     background-color: #AFEBE4;
     /* background-color: blue; */
 }
-
 
 /* OFFER */
 .offer{
@@ -224,11 +219,13 @@ body{
 }
 
 .cube_image{
+    width: 25%;
   transform: translate(450px, 40px);
 }
+
 .cube_image img{
-    
-    width: 25%;
+    width: 100%;
+
 }
 
 .offer h3{
@@ -447,7 +444,6 @@ body{
 .partners{
     width: 70%;
     margin: auto;
-    height: 400px;
 }
 
 section > section{
@@ -464,26 +460,26 @@ section > section{
     margin-top: 40px;
 }
 
+.counter > p > span{
+    font-weight: 800;
+}
+
 .counter h2{
     margin-bottom: 40px;
     font-size: 3rem;
-}
-
-.counter p{
-    font-size: 1rem;
-    font-weight: 300;
 }
 
 .loghi_partners{
     width: 50%;
     float: right;
     margin-top: 60px;
+    margin-right: 100px;
 }
 
 .box_logo{
     float: left;
     width: 25%;
-    text-align: center;
+    text-align: left;
     height: 30px;
     line-height: 30px;
     margin-bottom: 35px;
@@ -494,10 +490,40 @@ section > section{
     vertical-align: middle;
 }
 
-
-
-
 /* /PARTNERS */
+
+/* GROWING */
+
+.growing, .image_growing{
+    float: left;
+}
+
+.growing{
+    margin: 100px 0 50px 0;
+    width: 35%;
+}
+
+.image_growing{
+    width: 60%;
+    text-align: right;
+}
+
+.growing h2{
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+}
+
+.growing p{
+    margin-bottom: 60px;
+}
+
+.image_growing img{
+    width: 48%;
+    padding-top: 20px;
+   
+}
+
+/* /GROWING */
 
 /**********
  FOOTER 
