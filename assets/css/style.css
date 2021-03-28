@@ -300,6 +300,7 @@ body{
  .list_popolar li, .card_bg li{
     list-style: none;
     margin-right: 20px;
+    font-weight: 500;
 }
 
 .inline_list li{
@@ -318,7 +319,7 @@ body{
     padding: 3px;
     color: white;
     vertical-align: top;
-    margin-right: 10px;
+    margin-right: 10px;;
 }
 
 .card{
@@ -331,7 +332,7 @@ body{
 }
 
 .card_content img{
-    width: 40%;
+    height: 130px;
     padding: 20px 0;
 }
 
