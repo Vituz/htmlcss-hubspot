@@ -80,6 +80,36 @@ h5{
     font-weight: 600;
     padding-top: 50px;
 }
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    min-width: 50px;
+    box-shadow: 0 0 5px rgb(179, 179, 179);
+    right: 0;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.dropdown_content li{
+    list-style: none;
+}
+
+.dropdown_content a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+.dropdown_content li:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
 /* /Utility */
 
 /**********
@@ -90,10 +120,21 @@ h5{
  .left_menu, .right_menu{
     float: left;
     width: 50%;
-     
  }
 
- .top_nav nav div , .top_nav div > ul > li{
+ .top_nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+ }
+
+ .menu_nav{
+     margin-top: 45px;
+ }
+
+ .top_nav div , .top_nav div > ul > li{
     margin: 5px 0px 5px 0;
     display: inline-block;
  }
@@ -599,10 +640,6 @@ footer hr{
     font-weight: lighter;
     padding-top: 5px;
 }
-
-/* .copyright, .policy{
-    float: left;
-} */
 
 .policy{
     text-align: right;
