@@ -49,7 +49,7 @@ body{
 
 .btn{
     border-radius: 3px;
-    padding: 7px;
+    padding: 9px;
 
 }
 
@@ -544,32 +544,31 @@ footer{
   float: left;
 }
 
-.utility_list ul{
+footer ul{
     list-style: none;
+    font-size: 0.8rem;
+}
 
+footer a{
+    text-decoration: none;
 }
 
 .utility_list > ul > li{
     display: inline-block;
 }
 
-.utility_list > ul > li > ul > li{
+.utility_list > ul > li > ul > li, .lingue li{
     font-weight: lighter;
     line-height: 20px;
-    padding-bottom: 15px;
-    font-size: 0.8rem;   
+    padding-bottom: 10px; 
 }
 
 .utility_list > ul > li > ul > li:first-child{
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
-.utility_list a{
-    text-decoration: none;
-}
-
-.utility_list a:not(.btn_support){
-    color: white;
+.utility_list a:not(.btn_support), .lingue a, .copyright a{
+    color: #cbd6e2;;
 }
 
 .btn_support{
@@ -580,4 +579,39 @@ footer{
 .loghi_social li{
     display: inline-block;
     padding-right: 20px;
+}
+
+.lingue{
+    text-align: center;
+}
+
+.lingue ul > li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+footer hr{
+    background-color: white;
+}
+
+.copyright h5{
+    color: #cbd6e2;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+
+/* .copyright, .policy{
+    float: left;
+} */
+
+.policy{
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.policy a{
+    padding-left: 20px;
 }
