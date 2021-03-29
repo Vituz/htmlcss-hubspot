@@ -61,6 +61,7 @@ body{
 .btn_solid{
     background-color: #FE775A;
     color: white;
+    font-weight: 200;
 }
 
 .nav_text{
@@ -528,3 +529,55 @@ section > section{
 /**********
  FOOTER 
  **********/
+
+footer{
+    background-color: #32495B;
+    color: white;
+}
+
+.liste_link{
+    margin-top: 40px;
+}
+
+.utility_list{
+  width: 25%;
+  float: left;
+}
+
+.utility_list ul{
+    list-style: none;
+
+}
+
+.utility_list > ul > li{
+    display: inline-block;
+}
+
+.utility_list > ul > li > ul > li{
+    font-weight: lighter;
+    line-height: 20px;
+    padding-bottom: 15px;
+    font-size: 0.8rem;   
+}
+
+.utility_list > ul > li > ul > li:first-child{
+    padding-top: 30px;
+}
+
+.utility_list a{
+    text-decoration: none;
+}
+
+.utility_list a:not(.btn_support){
+    color: white;
+}
+
+.btn_support{
+    background-color: white;
+    color: #32495B;
+}
+
+.loghi_social li{
+    display: inline-block;
+    padding-right: 20px;
+}
