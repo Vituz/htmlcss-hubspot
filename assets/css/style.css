@@ -19,7 +19,7 @@ body{
 
 .container{
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 .top_nav{
@@ -62,6 +62,10 @@ body{
     background-color: #FE775A;
     color: white;
     font-weight: 200;
+}
+
+.bg_white{
+    background-color: white;
 }
 
 .nav_text{
@@ -179,15 +183,16 @@ header section:nth-child(3){
 
  .jumbotron{
      background-image: url("../img/jumbotron.png");
-     background-size: cover;
+     background-position: top right;
      background-repeat: no-repeat;
-     height: 650px;
+     height: 610px;
      border-bottom: 3px solid #486272;
+     background-color: #fff4ee;
  }
 
  .jumb_container{
      width: 45%;
-     font-size: 2rem;
+     font-size: 1.8rem;
      padding-top: 50px;
  }
 
@@ -221,16 +226,17 @@ body{
 
 .cube_image{
     width: 25%;
-  transform: translate(450px, 40px);
+    margin: auto;
+    padding-top: 40px;
 }
 
 .cube_image img{
-    width: 100%;
+    width: 90%;
 
 }
 
 .offer h3{
-    padding: 40px 0 20px 0;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 1.9rem;
 }
@@ -262,7 +268,6 @@ body{
 .card_left{
     width: 35%;
     text-align: center;
-    vertical-align: auto;
 }
 
 .free_text{
@@ -339,7 +344,7 @@ body{
 }
 
 .card_box > div{
-    width: 30.3%;
+    width: 29.9%;
     display: inline-block;
 }
 
@@ -443,7 +448,7 @@ body{
 /* PARTNERS */
 
 .partners{
-    width: 70%;
+    width: 65%;
     margin: auto;
 }
 
@@ -456,7 +461,7 @@ section > section{
 }
 
 .counter{
-    width: 15%;
+    width: 20%;
     float: left;
     margin-top: 40px;
 }
@@ -501,7 +506,7 @@ section > section{
 
 .growing{
     margin: 100px 0 50px 0;
-    width: 35%;
+    width: 40%;
 }
 
 .image_growing{
